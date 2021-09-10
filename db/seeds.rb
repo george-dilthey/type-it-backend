@@ -11,3 +11,7 @@ User.create(username:'gdilthey')
 User.create(username:'eeilertsen')
 User.create(username:'cleo')
 User.create(username:'felix')
+
+Score.create(score: 15, user_id: 1)
+Score.create(score: 20, user_id: 1)
+Score.create(score: 30, user_id: 1)
