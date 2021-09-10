@@ -4,11 +4,8 @@ class SessionsController < ApplicationController
     end
 
     def create
-        user = User.find_by_username(params[:username])
-        if user
-            session[:user_id] = user.id
-            render json: user
-        end
+        user = User.find_or_create_by(username: params[:username])
+        render json: user
     end
 
     def destroy
