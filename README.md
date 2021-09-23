@@ -1,24 +1,11 @@
-# README
+# TypeIt
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+TypeIt is a simple typing game to see how many words you can type accurately in 60 seconds.
 
-Things you may want to cover:
+## Instructions
 
-* Ruby version
+Type "START" to start the game. Type the words as quickly as possible, without messing up. Each typo will result in an "X" and you only get 5 mistakes per game.
 
-* System dependencies
+At the end of the game, if you haven't created an account, you can do so then with just a username. You can also create an account from the homepage by typing "ACCOUNT". You can also type "SCORES" to see the all-time leaderboard.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Enjoy!
